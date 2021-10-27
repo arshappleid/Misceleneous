@@ -1,0 +1,811 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+"\<Basic Examples\>","Subsection"],Cell[
+CellGroupData[
+{Cell[
+"\<Retrieve the ResourceObject:\>","Text",CellChangeTimes->{{3.6821849447840075*^9,3.682184951647694*^9},{3.6821850182913575*^9,3.6821850462121496*^9},{3.6821850885233803*^9,3.68218509051958*^9}},
+ExpressionUUID->"ea77f520-c30f-4729-ba1b-1d65092949d7"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{"ResourceObject","[",StyleBox["\"Sample Data: Swiss Bank Notes\"",ShowStringCharacters->True,
+NumberMarks->True],"]"}]],"Input",CellChangeTimes->{{3.6804517731799183*^9,3.6804517885604563*^9},{3.6804527318597765*^9,3.6804527390684977*^9},3.6961823143996277*^9},
+ExpressionUUID->"346c980e-2e32-44d5-9b20-f71865fe4aed"],Cell[
+BoxData[InterpretationBox[
+RowBox[{TagBox["ResourceObject","SummaryHead"],"[",DynamicModuleBox[{Set[Typeset`open$$,
+False]},PanelBox[PaneSelectorBox[{False->GridBox[{{PaneBox[ButtonBox[DynamicBox[FEPrivate`FrontEndResource[
+"FEBitmaps","SquarePlusIconMedium"],ImageSizeCache->{12.,{0.,12.}}],Appearance->None,
+RuleDelayed[ButtonFunction,Set[Typeset`open$$,True]],Evaluator->Automatic,Method->"Preemptive"],
+Alignment->{Center,Center},ImageSize->Dynamic[{Automatic,Times[3.5,CurrentValue["FontCapHeight"],
+Power[AbsoluteCurrentValue[Magnification],-1]]}]],GraphicsBox[{{Thickness[0.011111111111111112],{{FaceForm[
+{RGBColor[0.648987,0.648987,0.648987],Opacity[1.]}],FilledCurveBox[{{{0,2,0},{0,1,0},{0,1,0}}},
+{{{3.789,7.266},{86.20700000000001,7.266},{86.20700000000001,3.266},{3.789,3.266}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{14.129,54.07},{19.878999999999998,54.07},{19.878999999999998,15.57},{14.129,15.57}}}]}},{{FaceForm[
+{RGBColor[0.274612,0.618881,0.810913],Opacity[1.]}],FilledCurveBox[{{{0,2,0},{0,1,0},{0,1,0}}},
+{{{24.129,41.82},{29.879,41.82},{29.879,15.57},{24.129,15.57}}}],FilledCurveBox[{{{0,2,0},{0,1,0},{0,1,0}}},
+{{{33.160000000000004,54.07},{38.910000000000004,54.07},{38.910000000000004,15.57},{33.160000000000004,15.57}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{42.191,31.781},{47.941,31.781},{47.941,15.569999999999997},{42.191,15.569999999999997}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{51.223000000000006,46.875},{56.973000000000006,46.875},{56.973000000000006,15.57},{51.223000000000006,15.57}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{60.254,37.707},{66.00399999999999,37.707},{66.00399999999999,15.569999999999997},{60.254,15.569999999999997}}}]}},{{FaceForm[
+{RGBColor[0.648987,0.648987,0.648987],Opacity[1.]}],FilledCurveBox[{{{0,2,0},{0,1,0},{0,1,0}}},
+{{{70.12899999999999,54.07},{75.87899999999999,54.07},{75.87899999999999,15.57},{70.12899999999999,15.57}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{9.879000000000001,60.547},{24.129,60.547},{24.129,56.547},{9.879000000000001,56.547}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{9.871,13.097999999999999},{80.121,13.097999999999999},{80.121,9.097999999999999},{9.871,9.097999999999999}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{65.87899999999999,60.547},{80.12899999999999,60.547},{80.12899999999999,56.547},{65.87899999999999,56.547}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0}},{{0,2,0},{0,1,0},{0,1,0},{0,1,0}}},{{{11.469000000000001,66.54700000000001},{45.,82.418},{78.398,66.54700000000001}},{{45.,86.73400000000001},{2.2230000000000003,66.54700000000001},{2.2230000000000003,62.547},{87.777,62.547},{87.777,66.54700000000001}}}]}}}},
+AspectRatio->1,Axes->False,Background->None,Frame->None,FrameTicks->None,ImageSize->{Automatic,Dynamic[
+Times[3.5,CurrentValue["FontCapHeight"],Power[AbsoluteCurrentValue[Magnification],
+-1]],ImageSizeCache->{45.,{0.,9.}}]}],GridBox[{{RowBox[{TagBox["\"Name: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[
+TemplateBox[{"\"Sample Data: Swiss Bank Notes\"","\" \"",TagBox[ButtonBox[PaneSelectorBox[
+{False->"\"\[RightGuillemet]\"",True->StyleBox["\"\[RightGuillemet]\"",{"HyperlinkActive"}]},
+Dynamic[CurrentValue["MouseOver"]],BaseStyle->{"Hyperlink"},FrameMargins->0,ImageSize->Automatic],
+BaseStyle->"Hyperlink",ButtonData->{URL["https://datarepository.wolframcloud.com/resources/Swiss-Bank-Notes-Sample-Data"],None},
+ButtonNote->"https://datarepository.wolframcloud.com/resources/Swiss-Bank-Notes-Sample-Data"],
+Function[Annotation[Slot[1],URL["https://datarepository.wolframcloud.com/resources/Swiss-Bank-Notes-Sample-Data"],
+"Hyperlink"]]]},"RowDefault"],"SummaryItem"]}]},{RowBox[{TagBox["\"Type: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[
+"\"DataResource\"","SummaryItem"]}]},{RowBox[{TagBox["\"Description: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[
+"\"Swiss bank note data\"","SummaryItem"]}]}},AutoDelete->False,BaseStyle->{ShowStringCharacters->False,NumberMarks->False,PrintPrecision->3,ShowSyntaxStyles->False},
+GridBoxAlignment->{"Columns"->{{Left}},"Rows"->{{Automatic}}},GridBoxItemSize->{"Columns"->{{Automatic}},"Rows"->{{Automatic}}},
+GridBoxSpacings->{"Columns"->{{2}},"Rows"->{{Automatic}}}]}},AutoDelete->False,BaselinePosition->{1,1},
+GridBoxAlignment->{"Rows"->{{Top}}},GridBoxItemSize->{"Columns"->{{Automatic}},"Rows"->{{Automatic}}}],True->GridBox[
+{{PaneBox[ButtonBox[DynamicBox[FEPrivate`FrontEndResource["FEBitmaps","SquareMinusIconMedium"]],
+Appearance->None,RuleDelayed[ButtonFunction,Set[Typeset`open$$,False]],Evaluator->Automatic,
+Method->"Preemptive"],Alignment->{Center,Center},ImageSize->Dynamic[{Automatic,Times[
+3.5,CurrentValue["FontCapHeight"],Power[AbsoluteCurrentValue[Magnification],-1]]}]],GraphicsBox[
+{{Thickness[0.011111111111111112],{{FaceForm[{RGBColor[0.648987,0.648987,0.648987],Opacity[
+1.]}],FilledCurveBox[{{{0,2,0},{0,1,0},{0,1,0}}},{{{3.789,7.266},{86.20700000000001,7.266},{86.20700000000001,3.266},{3.789,3.266}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{14.129,54.07},{19.878999999999998,54.07},{19.878999999999998,15.57},{14.129,15.57}}}]}},{{FaceForm[
+{RGBColor[0.274612,0.618881,0.810913],Opacity[1.]}],FilledCurveBox[{{{0,2,0},{0,1,0},{0,1,0}}},
+{{{24.129,41.82},{29.879,41.82},{29.879,15.57},{24.129,15.57}}}],FilledCurveBox[{{{0,2,0},{0,1,0},{0,1,0}}},
+{{{33.160000000000004,54.07},{38.910000000000004,54.07},{38.910000000000004,15.57},{33.160000000000004,15.57}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{42.191,31.781},{47.941,31.781},{47.941,15.569999999999997},{42.191,15.569999999999997}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{51.223000000000006,46.875},{56.973000000000006,46.875},{56.973000000000006,15.57},{51.223000000000006,15.57}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{60.254,37.707},{66.00399999999999,37.707},{66.00399999999999,15.569999999999997},{60.254,15.569999999999997}}}]}},{{FaceForm[
+{RGBColor[0.648987,0.648987,0.648987],Opacity[1.]}],FilledCurveBox[{{{0,2,0},{0,1,0},{0,1,0}}},
+{{{70.12899999999999,54.07},{75.87899999999999,54.07},{75.87899999999999,15.57},{70.12899999999999,15.57}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{9.879000000000001,60.547},{24.129,60.547},{24.129,56.547},{9.879000000000001,56.547}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{9.871,13.097999999999999},{80.121,13.097999999999999},{80.121,9.097999999999999},{9.871,9.097999999999999}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0},{0,1,0}}},{{{65.87899999999999,60.547},{80.12899999999999,60.547},{80.12899999999999,56.547},{65.87899999999999,56.547}}}],FilledCurveBox[
+{{{0,2,0},{0,1,0}},{{0,2,0},{0,1,0},{0,1,0},{0,1,0}}},{{{11.469000000000001,66.54700000000001},{45.,82.418},{78.398,66.54700000000001}},{{45.,86.73400000000001},{2.2230000000000003,66.54700000000001},{2.2230000000000003,62.547},{87.777,62.547},{87.777,66.54700000000001}}}]}}}},
+AspectRatio->1,Axes->False,Background->None,Frame->None,FrameTicks->None,ImageSize->{Automatic,Dynamic[
+Times[3.5,CurrentValue["FontCapHeight"],Power[AbsoluteCurrentValue[Magnification],
+-1]],ImageSizeCache->{45.,{0.,9.}}]}],GridBox[{{RowBox[{TagBox["\"Name: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[
+TemplateBox[{"\"Sample Data: Swiss Bank Notes\"","\" \"",TagBox[ButtonBox[PaneSelectorBox[
+{False->"\"\[RightGuillemet]\"",True->StyleBox["\"\[RightGuillemet]\"",{"HyperlinkActive"}]},
+Dynamic[CurrentValue["MouseOver"]],BaseStyle->{"Hyperlink"},FrameMargins->0,ImageSize->Automatic],
+BaseStyle->"Hyperlink",ButtonData->{URL["https://datarepository.wolframcloud.com/resources/Swiss-Bank-Notes-Sample-Data"],None},
+ButtonNote->"https://datarepository.wolframcloud.com/resources/Swiss-Bank-Notes-Sample-Data"],
+Function[Annotation[Slot[1],URL["https://datarepository.wolframcloud.com/resources/Swiss-Bank-Notes-Sample-Data"],
+"Hyperlink"]]]},"RowDefault"],"SummaryItem"]}]},{RowBox[{TagBox["\"Type: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[
+"\"DataResource\"","SummaryItem"]}]},{RowBox[{TagBox["\"Description: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[
+"\"Swiss bank note data\"","SummaryItem"]}]},{RowBox[{TagBox["\"Categories: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[
+TagBox[TemplateBox[{",","\",\"","\"Statistics\""},"RowWithSeparators"],Short],"SummaryItem"]}]},{RowBox[
+{TagBox["\"ContentTypes: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[
+TagBox[TemplateBox[{",","\",\"","\"Numerical Data\""},"RowWithSeparators"],Short],
+"SummaryItem"]}]},{RowBox[{TagBox["\"Keywords: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[
+TagBox[TemplateBox[{",","\",\"","\"Switzerland\"","\"currency\"","\"statistics\"","\"ExampleData\""},
+"RowWithSeparators"],Short],"SummaryItem"]}]},{RowBox[{TagBox["\"Documentation: \"",
+"SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[TagBox[ButtonBox[PaneSelectorBox[
+{False->"\"https://datarepository.wolframcloud.com/resources/Swiss-Bank-Notes-Sample-Data\"",True->StyleBox[
+"\"https://datarepository.wolframcloud.com/resources/Swiss-Bank-Notes-Sample-Data\"",
+"HyperlinkActive"]},Dynamic[CurrentValue["MouseOver"]],BaseStyle->{"Hyperlink"},FrameMargins->0,
+ImageSize->Automatic],BaseStyle->"Hyperlink",ButtonData->{URL["https://datarepository.wolframcloud.com/resources/Swiss-Bank-Notes-Sample-Data"],None},
+ButtonNote->"https://datarepository.wolframcloud.com/resources/Swiss-Bank-Notes-Sample-Data"],
+Function[Annotation[Slot[1],URL["https://datarepository.wolframcloud.com/resources/Swiss-Bank-Notes-Sample-Data"],
+"Hyperlink"]]],"SummaryItem"]}]},{RowBox[{TagBox["\"Data Location: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[
+DynamicModuleBox[{Set[DataResource`Private`typesetstorage$$,DataResource`Private`typesetstorageLocation],DataResource`Private`info$$},
+DynamicBox[ToBoxes[CompoundExpression[Set[DataResource`Private`info$$,DataResource`Private`resourceInfo[
+"8536dc87-7968-4e75-a6da-e3c19fdeab57"]],If[AssociationQ[DataResource`Private`info$$],
+DataResource`Private`typesetstorage$$[Lookup[DataResource`Private`info$$,"ContentElementLocations",
+None]],Missing["NotAvailable"]]],StandardForm]],RuleDelayed[DynamicModuleValues,{}]],
+"SummaryItem"]}]},{RowBox[{TagBox["\"UUID: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[
+"\"8536dc87-7968-4e75-a6da-e3c19fdeab57\"","SummaryItem"]}]},{RowBox[{TagBox["\"Version: \"",
+"SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox["\"1.0.0\"","SummaryItem"]}]},{RowBox[
+{TagBox["\"Size: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[RowBox[{"\\[LeftAssociation]",RowBox[
+{"\"Content\"","\[Rule]","357408"}],"\\[RightAssociation]"}],"SummaryItem"]}]},{RowBox[
+{TagBox["\"Elements: \"","SummaryItemAnnotation"],"\[InvisibleSpace]",TagBox[TagBox[
+TemplateBox[{",","\",\"","\"Content\"","\"RawData\""},"RowWithSeparators"],Function[
+Short[Slot[1],2]]],"SummaryItem"]}]}},AutoDelete->False,BaseStyle->{ShowStringCharacters->False,NumberMarks->False,PrintPrecision->3,ShowSyntaxStyles->False},
+GridBoxAlignment->{"Columns"->{{Left}},"Rows"->{{Automatic}}},GridBoxItemSize->{"Columns"->{{Automatic}},"Rows"->{{Automatic}}},
+GridBoxSpacings->{"Columns"->{{2}},"Rows"->{{Automatic}}}]}},AutoDelete->False,BaselinePosition->{1,1},
+GridBoxAlignment->{"Rows"->{{Top}}},GridBoxItemSize->{"Columns"->{{Automatic}},"Rows"->{{Automatic}}}]},
+Dynamic[Typeset`open$$],ImageSize->Automatic],BaselinePosition->Baseline],RuleDelayed[
+DynamicModuleValues,{}]],"]"}],ResourceObject[Association["Name"->"Sample Data: Swiss Bank Notes",
+"UUID"->"8536dc87-7968-4e75-a6da-e3c19fdeab57","ResourceType"->"DataResource","Version"->"1.0.0",
+"Description"->"Swiss bank note data","ContentSize"->Association["Content"->357408],
+"ContentElements"->{"Content","RawData"}]],Editable->False,SelectWithContents->True,
+Selectable->False]],"Output",CellChangeTimes->{3.6845197436355257*^9,3.6961823152252283*^9},
+ExpressionUUID->"df801e92-a1ba-4332-aaff-b5d177c75628"]},Open]]},Open]],Cell[
+CellGroupData[
+{Cell[
+"\<View the data:\>","Text",CellChangeTimes->{{3.682184974529982*^9,3.6821849772962584*^9},{3.6821850234008684*^9,3.6821850240499334*^9},{3.6821850586563935*^9,3.6821850629428225*^9}},
+ExpressionUUID->"0961be99-2f51-46fe-bb33-d0e87e6651b3"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{"ResourceData","[",StyleBox["\"Sample Data: Swiss Bank Notes\"",ShowStringCharacters->True,
+NumberMarks->True],"]"}]],"Input",CellChangeTimes->{{3.6804518239459944*^9,3.680451854651065*^9},3.696182316984611*^9},
+ExpressionUUID->"d6a83961-69b2-4d90-9b08-d42ba05d1b5b"],Cell[
+BoxData[TemplateBox[
+{TagBox[StyleBox[TagBox[GridBox[{{ItemBox[TagBox[TooltipBox[PaneBox[StyleBox["\"Length\"",
+FontColor->GrayLevel[0.4]],ImageSize->{{20,Full},15}],TemplateBox[{TemplateBox[{StyleBox[
+"\"All\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox[
+"\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Length\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+LabelStyle->"TextStyling"],Function[Annotation[Slot[1],Row[{Row[{Style["All",GrayLevel[
+0.6]]}],Row[{Style[" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Length",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Background->GrayLevel[0.95],Alignment->{Left,Baseline},StripOnInput->False],ItemBox[
+TagBox[TooltipBox[PaneBox[StyleBox["\"Left\"",FontColor->GrayLevel[0.4]],ImageSize->{{20,Full},15}],
+TemplateBox[{TemplateBox[{StyleBox["\"All\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,
+0.6509803921568628],StripOnInput->False],StyleBox["\"Left\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+LabelStyle->"TextStyling"],Function[Annotation[Slot[1],Row[{Row[{Style["All",GrayLevel[
+0.6]]}],Row[{Style[" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Left",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Background->GrayLevel[0.95],Alignment->{Left,Baseline},StripOnInput->False],ItemBox[
+TagBox[TooltipBox[PaneBox[StyleBox["\"Right\"",FontColor->GrayLevel[0.4]],ImageSize->{{20,Full},15}],
+TemplateBox[{TemplateBox[{StyleBox["\"All\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,
+0.6509803921568628],StripOnInput->False],StyleBox["\"Right\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+LabelStyle->"TextStyling"],Function[Annotation[Slot[1],Row[{Row[{Style["All",GrayLevel[
+0.6]]}],Row[{Style[" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Right",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Background->GrayLevel[0.95],Alignment->{Left,Baseline},StripOnInput->False],ItemBox[
+TagBox[TooltipBox[PaneBox[StyleBox["\"Bottom\"",FontColor->GrayLevel[0.4]],ImageSize->{{20,Full},15}],
+TemplateBox[{TemplateBox[{StyleBox["\"All\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,
+0.6509803921568628],StripOnInput->False],StyleBox["\"Bottom\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+LabelStyle->"TextStyling"],Function[Annotation[Slot[1],Row[{Row[{Style["All",GrayLevel[
+0.6]]}],Row[{Style[" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Bottom",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Background->GrayLevel[0.95],Alignment->{Left,Baseline},StripOnInput->False],ItemBox[
+TagBox[TooltipBox[PaneBox[StyleBox["\"Top\"",FontColor->GrayLevel[0.4]],ImageSize->{{20,Full},15}],
+TemplateBox[{TemplateBox[{StyleBox["\"All\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,
+0.6509803921568628],StripOnInput->False],StyleBox["\"Top\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+LabelStyle->"TextStyling"],Function[Annotation[Slot[1],Row[{Row[{Style["All",GrayLevel[
+0.6]]}],Row[{Style[" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Top",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Background->GrayLevel[0.95],Alignment->{Left,Baseline},StripOnInput->False],ItemBox[
+TagBox[TooltipBox[PaneBox[StyleBox["\"Diagonal\"",FontColor->GrayLevel[0.4]],ImageSize->{{20,Full},15}],
+TemplateBox[{TemplateBox[{StyleBox["\"All\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,
+0.6509803921568628],StripOnInput->False],StyleBox["\"Diagonal\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+LabelStyle->"TextStyling"],Function[Annotation[Slot[1],Row[{Row[{Style["All",GrayLevel[
+0.6]]}],Row[{Style[" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Diagonal",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Background->GrayLevel[0.95],Alignment->{Left,Baseline},StripOnInput->False],ItemBox[
+TagBox[TooltipBox[PaneBox[StyleBox["\"Genuine/Counterfeit\"",FontColor->GrayLevel[
+0.4]],ImageSize->{{20,Full},15}],TemplateBox[{TemplateBox[{StyleBox["\"All\"",GrayLevel[
+0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",RGBColor[
+0.6509803921568628,0.6509803921568628,0.6509803921568628],StripOnInput->False],StyleBox[
+"\"Genuine/Counterfeit\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},"Row",
+DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+LabelStyle->"TextStyling"],Function[Annotation[Slot[1],Row[{Row[{Style["All",GrayLevel[
+0.6]]}],Row[{Style[" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Genuine/Counterfeit",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+"Tooltip"]]],Background->GrayLevel[0.95],Alignment->{Left,Baseline},StripOnInput->False]},{PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"214.8`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["1",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Length\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["1"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Length",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[1,Key["Length"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"131","\"mm\""}],FontColor->RGBColor[{Times[
+33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[{TemplateBox[
+{StyleBox["1",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox[
+"\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Left\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["1"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Left",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[1,Key["Left"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"131.1`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["1",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Right\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["1"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Right",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[1,Key["Right"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"9","\"mm\""}],FontColor->RGBColor[{Times[
+33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[{TemplateBox[
+{StyleBox["1",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox[
+"\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Bottom\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["1"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Bottom",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[1,Key["Bottom"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"9.7`","\"mm\""}],FontColor->RGBColor[{Times[
+33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[{TemplateBox[
+{StyleBox["1",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox[
+"\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Top\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["1"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Top",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[1,Key["Top"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"141","\"mm\""}],FontColor->RGBColor[{Times[
+33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[{TemplateBox[
+{StyleBox["1",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox[
+"\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Diagonal\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["1"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Diagonal",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[1,Key["Diagonal"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox["\"counterfeit\"",TemplateBox[{TemplateBox[{StyleBox["1",
+GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",
+RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],StripOnInput->False],StyleBox[
+"\"Genuine/Counterfeit\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},"Row",
+DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["1"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Genuine/Counterfeit",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+"Tooltip"]]],Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+843521139][Slice[1,Key["Genuine/Counterfeit"]]],"Mouse"]]],ImageSize->{{105.60000000000002,Full},Automatic},
+Alignment->{Left,Baseline}]},{PaneBox[TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"214.6`","\"mm\""}],
+FontColor->RGBColor[{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[
+370,-1]]}]],TemplateBox[{TemplateBox[{StyleBox["2",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,
+0.6509803921568628],StripOnInput->False],StyleBox["\"Length\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["2"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Length",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[2,Key["Length"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"129.7`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["2",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Left\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["2"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Left",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[2,Key["Left"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"129.7`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["2",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Right\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["2"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Right",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[2,Key["Right"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"8.1`","\"mm\""}],FontColor->RGBColor[{Times[
+33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[{TemplateBox[
+{StyleBox["2",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox[
+"\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Bottom\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["2"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Bottom",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[2,Key["Bottom"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"9.5`","\"mm\""}],FontColor->RGBColor[{Times[
+33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[{TemplateBox[
+{StyleBox["2",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox[
+"\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Top\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["2"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Top",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[2,Key["Top"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"141.7`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["2",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Diagonal\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["2"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Diagonal",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[2,Key["Diagonal"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox["\"counterfeit\"",TemplateBox[{TemplateBox[{StyleBox["2",
+GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",
+RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],StripOnInput->False],StyleBox[
+"\"Genuine/Counterfeit\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},"Row",
+DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["2"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Genuine/Counterfeit",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+"Tooltip"]]],Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+843521139][Slice[2,Key["Genuine/Counterfeit"]]],"Mouse"]]],ImageSize->{{105.60000000000002,Full},Automatic},
+Alignment->{Left,Baseline}]},{PaneBox[TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"214.8`","\"mm\""}],
+FontColor->RGBColor[{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[
+370,-1]]}]],TemplateBox[{TemplateBox[{StyleBox["3",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,
+0.6509803921568628],StripOnInput->False],StyleBox["\"Length\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["3"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Length",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[3,Key["Length"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"129.7`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["3",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Left\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["3"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Left",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[3,Key["Left"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"129.7`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["3",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Right\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["3"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Right",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[3,Key["Right"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"8.7`","\"mm\""}],FontColor->RGBColor[{Times[
+33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[{TemplateBox[
+{StyleBox["3",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox[
+"\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Bottom\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["3"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Bottom",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[3,Key["Bottom"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"9.6`","\"mm\""}],FontColor->RGBColor[{Times[
+33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[{TemplateBox[
+{StyleBox["3",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox[
+"\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Top\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["3"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Top",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[3,Key["Top"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"142.2`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["3",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Diagonal\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["3"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Diagonal",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[3,Key["Diagonal"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox["\"counterfeit\"",TemplateBox[{TemplateBox[{StyleBox["3",
+GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",
+RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],StripOnInput->False],StyleBox[
+"\"Genuine/Counterfeit\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},"Row",
+DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["3"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Genuine/Counterfeit",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+"Tooltip"]]],Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+843521139][Slice[3,Key["Genuine/Counterfeit"]]],"Mouse"]]],ImageSize->{{105.60000000000002,Full},Automatic},
+Alignment->{Left,Baseline}]},{PaneBox[TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"214.8`","\"mm\""}],
+FontColor->RGBColor[{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[
+370,-1]]}]],TemplateBox[{TemplateBox[{StyleBox["4",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,
+0.6509803921568628],StripOnInput->False],StyleBox["\"Length\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["4"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Length",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[4,Key["Length"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"129.7`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["4",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Left\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["4"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Left",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[4,Key["Left"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"129.6`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["4",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Right\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["4"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Right",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[4,Key["Right"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"7.5`","\"mm\""}],FontColor->RGBColor[{Times[
+33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[{TemplateBox[
+{StyleBox["4",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox[
+"\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Bottom\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["4"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Bottom",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[4,Key["Bottom"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"10.4`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["4",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Top\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["4"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Top",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[4,Key["Top"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"142","\"mm\""}],FontColor->RGBColor[{Times[
+33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[{TemplateBox[
+{StyleBox["4",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox[
+"\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Diagonal\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["4"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Diagonal",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[4,Key["Diagonal"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox["\"counterfeit\"",TemplateBox[{TemplateBox[{StyleBox["4",
+GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",
+RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],StripOnInput->False],StyleBox[
+"\"Genuine/Counterfeit\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},"Row",
+DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["4"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Genuine/Counterfeit",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+"Tooltip"]]],Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+843521139][Slice[4,Key["Genuine/Counterfeit"]]],"Mouse"]]],ImageSize->{{105.60000000000002,Full},Automatic},
+Alignment->{Left,Baseline}]},{PaneBox[TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"215","\"mm\""}],
+FontColor->RGBColor[{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[
+370,-1]]}]],TemplateBox[{TemplateBox[{StyleBox["5",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,
+0.6509803921568628],StripOnInput->False],StyleBox["\"Length\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["5"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Length",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[5,Key["Length"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"129.6`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["5",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Left\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["5"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Left",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[5,Key["Left"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"129.7`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["5",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Right\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["5"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Right",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[5,Key["Right"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"10.4`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["5",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Bottom\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["5"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Bottom",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[5,Key["Bottom"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"7.7`","\"mm\""}],FontColor->RGBColor[{Times[
+33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[{TemplateBox[
+{StyleBox["5",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox[
+"\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Top\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},
+"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["5"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Top",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[5,Key["Top"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox[StyleBox[RowBox[{"141.8`","\"mm\""}],FontColor->RGBColor[
+{Times[33,Power[74,-1]],Times[27,Power[74,-1]],Times[117,Power[370,-1]]}]],TemplateBox[
+{TemplateBox[{StyleBox["5",GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[
+{StyleBox["\" \\:203a \"",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],
+StripOnInput->False],StyleBox["\"Diagonal\"",GrayLevel[0.6],StripOnInput->False]},
+"RowDefault"]},"Row",DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["5"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Diagonal",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],"Tooltip"]]],
+Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[843521139][
+Slice[5,Key["Diagonal"]]],"Mouse"]]],ImageSize->{{75,Full},Automatic},Alignment->{Left,Baseline}],PaneBox[
+TagBox[TagBox[TooltipBox["\"counterfeit\"",TemplateBox[{TemplateBox[{StyleBox["5",
+GrayLevel[0.6],StripOnInput->False]},"RowDefault"],TemplateBox[{StyleBox["\" \\:203a \"",
+RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628],StripOnInput->False],StyleBox[
+"\"Genuine/Counterfeit\"",GrayLevel[0.6],StripOnInput->False]},"RowDefault"]},"Row",
+DisplayFunction->Function[RowBox[{TemplateSlotSequence[1,"\[InvisibleSpace]"]}]],
+InterpretationFunction->Function[RowBox[{"Row","[",RowBox[{RowBox[{"{",TemplateSlotSequence[
+1,","],"}"}],",",RowBox[{"BaseStyle","\[Rule]",RowBox[{"{",RowBox[{RowBox[{"FontFamily","\[Rule]","\"Verdana\""}],",",RowBox[
+{"FontSize","\[Rule]","9.`"}]}],"}"}]}]}],"]"}]],BaseStyle->{FontFamily->"Verdana",FontSize->9.}]],
+Function[Annotation[Slot[1],Row[{Row[{Style[RawBoxes["5"],GrayLevel[0.6]]}],Row[{Style[
+" \\:203a ",RGBColor[0.6509803921568628,0.6509803921568628,0.6509803921568628]],Style[
+"Genuine/Counterfeit",GrayLevel[0.6]]}]},BaseStyle->{FontFamily->"Verdana",FontSize->9.}],
+"Tooltip"]]],Function[Annotation[Slot[1],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+843521139][Slice[5,Key["Genuine/Counterfeit"]]],"Mouse"]]],ImageSize->{{105.60000000000002,Full},Automatic},
+Alignment->{Left,Baseline}]},{ItemBox[TagBox[TooltipBox["\"200 total \\:203a \"",
+"\"\"",LabelStyle->"TextStyling"],Function[Annotation[Slot[1],"","Tooltip"]]],BaseStyle->{{RGBColor[
+0.5098039215686274,0.5098039215686274,0.5098039215686274],8}},Alignment->{Center,Baseline},
+Background->GrayLevel[0.98],StripOnInput->False],"\[SpanFromLeft]","\[SpanFromLeft]","\[SpanFromLeft]","\[SpanFromLeft]","\[SpanFromLeft]","\[SpanFromLeft]"}},
+GridBoxAlignment->{"Columns"->{{Left}}},AutoDelete->False,GridBoxDividers->{"Columns"->{{True}},"Rows"->{{True}}},
+GridBoxItemSize->{"Columns"->{{Automatic}},"Rows"->{{Automatic}}},RowMinHeight->1.5,
+FrameStyle->GrayLevel[0.85],BaseStyle->{FontFamily->"Verdana",FontSize->12}],"Grid"],
+LineBreakWithin->False,ContextMenu->{},NumberMarks->False,ShowAutoStyles->False,StripOnInput->False],
+Deploy,DefaultBaseStyle->"Deploy"]},"CopyTag",DisplayFunction->Function[Slot[1]],
+InterpretationFunction->Function["Dataset[<>]"]]],"Output",CellChangeTimes->{3.6845197444586077*^9,3.696182318683157*^9},
+ExpressionUUID->"a98c64f6-3503-4408-9a7d-ced3104677eb"]},Open]]},Open]]},Open]],Cell[
+CellGroupData[
+{Cell[
+"\<Visualization\>","Subsection"],Cell[
+CellGroupData[{Cell[
+"\<Compare length and diagonal dimensions for counterfeit and genuine Swiss bank notes:\>",
+"Text",CellChangeTimes->{{3.682184974529982*^9,3.6821849772962584*^9},{3.6821850234008684*^9,3.6821850240499334*^9},{3.6821850586563935*^9,3.6821850629428225*^9},{3.6835639868587484*^9,3.6835640229893613*^9}},
+ExpressionUUID->"308bf0b7-28a0-43df-b8aa-9c147c9adcdc"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{"ListPlot","[",RowBox[{RowBox[{RowBox[{RowBox[{"ResourceData","[",StyleBox[
+"\"Sample Data: Swiss Bank Notes\"",ShowStringCharacters->True,NumberMarks->True],"]"}],"[",RowBox[
+{"GroupBy","[","\"Genuine/Counterfeit\"","]"}],"]"}],"[",RowBox[{"All",",","All",",",RowBox[
+{"{",RowBox[{"\"Diagonal\"",",","\"Length\""}],"}"}]}],"]"}],",",RowBox[{"AxesLabel","\[Rule]","Automatic"}]}],"]"}]],
+"Input",CellChangeTimes->{{3.684520768508362*^9,3.684520818206362*^9},{3.684520851861362*^9,3.684520852125362*^9},3.6961823212806597*^9},
+ExpressionUUID->"065b84a7-93be-43e5-984a-70a1670caaba"],Cell[
+BoxData[TemplateBox[
+{GraphicsBox[{{},{{{},{Hue[0.67,0.6,0.6],Directive[PointSize[0.009166666666666668],
+RGBColor[0.368417,0.506779,0.709798],AbsoluteThickness[1.6]],PointBox[CompressedData[
+"\n1:eJx9VM1mxFAUjr5Jn6EvkGfoG9xqu8imiz5KGWZkEcowdBFKGbIYSgkpIQxD\nF6UMpYth6KqLJufez8n5btNLHCfn7zvnfPeeXtycX50kSXLZf4OUU7h0Me/P\nLkuvh/Pk0rPhdEF/Ubv4b1QXuXb+/3uWvjb9eXA+7jvzeR6D/aD5RW+Df+W8\nfAv2WYjfa36Rn4pH8n5Qvb3mF7nVePgbPG3cL/CgH5Gl5ocd+VEf/sgv8qjx\nwA+7mc+94hO/Wv0lf6PzQ33jP+pvaj9mnjXte0b9Foof/Yn8oXod7f9A9dHv\ns+oiVyFfpXh8n6FeHvMR/IAdOvPX8KWm+f/BXzP/Tu3gB/DCDn+zn1z9sV/5\n/0X8aDW/4esy5gP2YeqP+M58Nvsf8Q36v3hKqjcnvqxoPmU8b4PnNt6X95u4\nr0uqv1Y+gD98v/1/jWc+mPucx++J2ecdza8g/FU8D8aP+WI+vB/4ox9+Xwz+\nTfye8HvD9Ux8OcG3Lc3vGPPN9NPE/Ri+9vl+ASRNmxI=\n         "]]},{Hue[
+0.9060679774997897,0.6,0.6],Directive[PointSize[0.009166666666666668],RGBColor[0.880722,
+0.611041,0.142051],AbsoluteThickness[1.6]],PointBox[CompressedData["\n1:eJyFVD1LxEAQDXb+DH+DlWARsBIsxAPBzvgRSAx4cBAIXHEgHFxtpb/FWhAU\nDoQDwSIgCIKF4B8wmZ3H3Lw9uYUQ3s7Xm7ezu3V2fXS5kSTJRff1//u7bjVZ\n+vLcrzJN+jVU/F6meb+mhsV/lgW/Vu11Fv6LMviNyd7FS9yX2QW/Ka7MH/kl\n7lPjc8Pb/brJwv9D8a3y+7b8jn9t/sgn9X60XhPzBxa/ifFFPPSSvCOzA7t6\nS/0zH/SDeohn/aEP+Dj+M8vn9J9bf/J/ov7na/R6tXmQ/UfDfH7wl/19mpfG\n7OjP8Stiffk8EM/zhXjuF/XZX/Ls0TxWVK+K+QNLnlPqtyB+lfGBXsB8/qwv\nzxfrI/u7VO9A8a/15/gOSf9z63flfCzxk/0TtW9ehf0B1RvR+dWk347iB/NH\nv9CLz5/vEzD053kFf54v9It48GG7e6+Oyb+I523l/VjE8yT2Qzr/PL4/3D/P\nk3svBvbe8X1x9dp4fp0+7T/zOIn58fsEvf8ABbCeSw==\n         \n         "]]},{}}},{},{},{{{{}}},{{{}}}}},
+{DisplayFunction->Identity,PlotRangePadding->{{Scaled[0.02],Scaled[0.02]},{Scaled[
+0.05],Scaled[0.05]}},AxesOrigin->{137.728125,213.675},PlotRange->{{137.8,142.4},{213.8,216.3}},PlotRangeClipping->True,ImagePadding->All,DisplayFunction->Identity,AspectRatio->NCache[
+Power[GoldenRatio,-1],0.6180339887498948],Axes->{True,True},AxesLabel->{FormBox["\"Diagonal\"",
+TraditionalForm],FormBox["\"Length\"",TraditionalForm]},AxesOrigin->{137.728125,213.675},RuleDelayed[
+DisplayFunction,Identity],Frame->{{False,False},{False,False}},FrameLabel->{{None,None},{None,None}},FrameTicks->{{Automatic,Automatic},{Automatic,Automatic}},GridLines->{None,None},GridLinesStyle->Directive[
+GrayLevel[0.5,0.4]],Method->{"CoordinatesToolOptions"->{"DisplayFunction"->Function[
+{Function[Part[{{Identity,Identity},{Identity,Identity}},1,2][Slot[1]]][Part[Slot[
+1],1]],Function[Part[{{Identity,Identity},{Identity,Identity}},2,2][Slot[1]]][Part[
+Slot[1],2]]}],"CopiedValueFunction"->Function[{Function[Part[{{Identity,Identity},{Identity,Identity}},
+1,2][Slot[1]]][Part[Slot[1],1]],Function[Part[{{Identity,Identity},{Identity,Identity}},
+2,2][Slot[1]]][Part[Slot[1],2]]}]}},PlotRange->{{137.8,142.4},{213.8,216.3}},PlotRangeClipping->True,PlotRangePadding->{{Scaled[
+0.02],Scaled[0.02]},{Scaled[0.05],Scaled[0.05]}},Ticks->{Automatic,Automatic}},BoxID->"{\"jsonData\":\"{\\\"type\\\": \\\"Graphics\\\",\\n\\\"height\\\": 206.000000,\\n\\\"width\\\": 360.000000,\\n\\\"offset\\\": [-66.000000, -5.000000],\\n\\\"UserCoords\\\": [137.217299, 216.726379, 143.347210, 213.436216],\\n\\\"AxesOrigin\\\": [137.728125, 213.675000],\\n\\\"primitives\\\": [\\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[94,22], [94,197], [377,197], [377,22]]},\\n{\\\"type\\\": \\\"Point\\\", \\\"points\\\": [[288, 126], [329, 138], [359, 126], [347, 126], [335, 113], [312, 69], [323, 82], [329, 144], [341, 119], [271, 101], [335, 94], [359, 107], [312, 101], [329, 132], [335, 107], [323, 144], [329, 138], [341, 113], [318, 101], [341, 132], [312, 113], [323, 76], [318, 94], [323, 69], [294, 107], [364, 94], [370, 82], [341, 107], [335, 107], [347, 126], [335, 101], [364, 126], [271, 113], [288, 76], [312, 57], [335, 138], [335, 82], [347, 94], [353, 94], [306, 182], [364, 151], [282, 126], [329, 119], [282, 119], [288, 126], [335, 157], [318, 126], [347, 126], [294, 138], [347, 144], [306, 138], [294, 94], [282, 144], [323, 88], [312, 144], [347, 101], [300, 69], [294, 113], [306, 107], [312, 107], [323, 107], [318, 94], [318, 88], [312, 144], [318, 113], [276, 101], [306, 138], [318, 126], [335, 107], [206, 119], [282, 188], [312, 101], [300, 113], [335, 151], [353, 101], [329, 169], [300, 119], [288, 138], [282, 101], [335, 138], [265, 107], [288, 119], [341, 101], [306, 101], [300, 88], [318, 107], [323, 101], [353, 113], [318, 119], [347, 113], [323, 132], [312, 88], [318, 119], [318, 144], [347, 132], [329, 76], [294, 113], [300, 151], [318, 107], [300, 132]], \\\"antialiased\\\" : true, \\\"pointStyle\\\": {\\\"pointSize\\\": {\\\"scaled\\\": 0.00916667}}, \\\"faceForm\\\": {\\\"color\\\": [93.9455, 129.23, 181], \\\"opacity\\\": 1}}, \\n{\\\"type\\\": \\\"Point\\\", \\\"points\\\": [[218, 151], [200, 119], [241, 119], [247, 113], [212, 132], [224, 113], [241, 94], [224, 126], [194, 113], [247, 101], [182, 101], [235, 107], [265, 88], [224, 119], [212, 107], [182, 82], [218, 132], [224, 132], [229, 126], [182, 151], [206, 126], [206, 107], [241, 94], [212, 107], [235, 132], [206, 119], [241, 113], [229, 82], [247, 107], [224, 144], [218, 157], [182, 144], [224, 119], [212, 138], [200, 163], [200, 126], [194, 138], [130, 119], [218, 138], [206, 144], [188, 126], [182, 132], [224, 138], [224, 113], [188, 144], [218, 119], [224, 113], [118, 94], [194, 132], [194, 119], [218, 119], [171, 138], [188, 138], [194, 144], [200, 144], [212, 107], [200, 163], [182, 151], [188, 126], [106, 138], [135, 76], [118, 119], [200, 138], [177, 132], [218, 157], [212, 107], [159, 32], [147, 76], [206, 126], [212, 119], [100, 182], [206, 163], [194, 126], [182, 126], [206, 126], [171, 119], [212, 157], [206, 144], [177, 126], [100, 144], [177, 113], [153, 126], [188, 113], [188, 138], [200, 132], [194, 132], [141, 144], [182, 126], [194, 126], [182, 138], [194, 107], [147, 88], [182, 132], [141, 113], [218, 119], [206, 113], [212, 107], [229, 126], [194, 132], [206, 157]], \\\"antialiased\\\" : true, \\\"pointStyle\\\": {\\\"pointSize\\\": {\\\"scaled\\\": 0.00916667}}, \\\"faceForm\\\": {\\\"color\\\": [224.584, 155.817, 36.2218], \\\"opacity\\\": 1}}, \\n{\\\"type\\\": \\\"Group\\\", \\\"name\\\": \\\"Frame\\\",\\n\\\"metadata\\\": {\\\"left\\\": 137.704, \\\"top\\\": 216.439, \\\"right\\\": 142.496, \\\"bottom\\\": 213.661},\\n\\\"primitives\\\":[]}, \\n{\\\"type\\\": \\\"Group\\\", \\\"name\\\": \\\"Axes\\\",\\n\\\"metadata\\\": \\\"TBD\\\",\\n\\\"primitives\\\":[\\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[100.221,196.05],[100.221,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[111.967,196.05],[111.967,192.711]]}, \\n{\\\"type\\\": \\\"Inset\\\", \\\"metadata\\\": {\\\"transform\\\": [1, 0, 0, 1, 102.967, 199.05], \\\"localRect\\\": {\\\"left\\\": 0, \\\"top\\\": 0, \\\"right\\\": 18, \\\"bottom\\\": 11}, \\\"pos\\\": [138, 213.675], \\\"opos\\\": [0.5, 1]},\\n\\\"boxdata\\\": \\\"\\\\nStyleBox[\\\\\\\"138\\\\\\\",\\\\n FontFamily->\\\\\\\"Arial\\\\\\\",\\\\n FontSize->10,\\\\n FontWeight->\\\\\\\"Plain\\\\\\\",\\\\n FontSlant->\\\\\\\"Plain\\\\\\\",\\\\n FontTracking->\\\\\\\"Plain\\\\\\\",\\\\n PrivateFontOptions->{\\\\\\\"OperatorSubstitution\\\\\\\"->True},\\\\n FontColor->GrayLevel[0.4],\\\\n FontOpacity->1,\\\\n Background->None]\\\"}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[123.712,196.05],[123.712,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[135.458,196.05],[135.458,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[147.204,196.05],[147.204,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[158.95,196.05],[158.95,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[170.695,196.05],[170.695,192.711]]}, \\n{\\\"type\\\": \\\"Inset\\\", \\\"metadata\\\": {\\\"transform\\\": [1, 0, 0, 1, 161.695, 199.05], \\\"localRect\\\": {\\\"left\\\": 0, \\\"top\\\": 0, \\\"right\\\": 18, \\\"bottom\\\": 11}, \\\"pos\\\": [139, 213.675], \\\"opos\\\": [0.5, 1]},\\n\\\"boxdata\\\": \\\"\\\\nStyleBox[\\\\\\\"139\\\\\\\",\\\\n FontFamily->\\\\\\\"Arial\\\\\\\",\\\\n FontSize->10,\\\\n FontWeight->\\\\\\\"Plain\\\\\\\",\\\\n FontSlant->\\\\\\\"Plain\\\\\\\",\\\\n FontTracking->\\\\\\\"Plain\\\\\\\",\\\\n PrivateFontOptions->{\\\\\\\"OperatorSubstitution\\\\\\\"->True},\\\\n FontColor->GrayLevel[0.4],\\\\n FontOpacity->1,\\\\n Background->None]\\\"}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[182.441,196.05],[182.441,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[194.187,196.05],[194.187,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[205.932,196.05],[205.932,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[217.678,196.05],[217.678,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[229.424,196.05],[229.424,192.711]]}, \\n{\\\"type\\\": \\\"Inset\\\", \\\"metadata\\\": {\\\"transform\\\": [1, 0, 0, 1, 220.424, 199.05], \\\"localRect\\\": {\\\"left\\\": 0, \\\"top\\\": 0, \\\"right\\\": 18, \\\"bottom\\\": 11}, \\\"pos\\\": [140, 213.675], \\\"opos\\\": [0.5, 1]},\\n\\\"boxdata\\\": \\\"\\\\nStyleBox[\\\\\\\"140\\\\\\\",\\\\n FontFamily->\\\\\\\"Arial\\\\\\\",\\\\n FontSize->10,\\\\n FontWeight->\\\\\\\"Plain\\\\\\\",\\\\n FontSlant->\\\\\\\"Plain\\\\\\\",\\\\n FontTracking->\\\\\\\"Plain\\\\\\\",\\\\n PrivateFontOptions->{\\\\\\\"OperatorSubstitution\\\\\\\"->True},\\\\n FontColor->GrayLevel[0.4],\\\\n FontOpacity->1,\\\\n Background->None]\\\"}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[241.169,196.05],[241.169,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[252.915,196.05],[252.915,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[264.661,196.05],[264.661,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[276.406,196.05],[276.406,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[288.152,196.05],[288.152,192.711]]}, \\n{\\\"type\\\": \\\"Inset\\\", \\\"metadata\\\": {\\\"transform\\\": [1, 0, 0, 1, 279.152, 199.05], \\\"localRect\\\": {\\\"left\\\": 0, \\\"top\\\": 0, \\\"right\\\": 18, \\\"bottom\\\": 11}, \\\"pos\\\": [141, 213.675], \\\"opos\\\": [0.5, 1]},\\n\\\"boxdata\\\": \\\"\\\\nStyleBox[\\\\\\\"141\\\\\\\",\\\\n FontFamily->\\\\\\\"Arial\\\\\\\",\\\\n FontSize->10,\\\\n FontWeight->\\\\\\\"Plain\\\\\\\",\\\\n FontSlant->\\\\\\\"Plain\\\\\\\",\\\\n FontTracking->\\\\\\\"Plain\\\\\\\",\\\\n PrivateFontOptions->{\\\\\\\"OperatorSubstitution\\\\\\\"->True},\\\\n FontColor->GrayLevel[0.4],\\\\n FontOpacity->1,\\\\n Background->None]\\\"}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[299.898,196.05],[299.898,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[311.643,196.05],[311.643,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[323.389,196.05],[323.389,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[335.135,196.05],[335.135,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[346.88,196.05],[346.88,192.711]]}, \\n{\\\"type\\\": \\\"Inset\\\", \\\"metadata\\\": {\\\"transform\\\": [1, 0, 0, 1, 337.88, 199.05], \\\"localRect\\\": {\\\"left\\\": 0, \\\"top\\\": 0, \\\"right\\\": 18, \\\"bottom\\\": 11}, \\\"pos\\\": [142, 213.675], \\\"opos\\\": [0.5, 1]},\\n\\\"boxdata\\\": \\\"\\\\nStyleBox[\\\\\\\"142\\\\\\\",\\\\n FontFamily->\\\\\\\"Arial\\\\\\\",\\\\n FontSize->10,\\\\n FontWeight->\\\\\\\"Plain\\\\\\\",\\\\n FontSlant->\\\\\\\"Plain\\\\\\\",\\\\n FontTracking->\\\\\\\"Plain\\\\\\\",\\\\n PrivateFontOptions->{\\\\\\\"OperatorSubstitution\\\\\\\"->True},\\\\n FontColor->GrayLevel[0.4],\\\\n FontOpacity->1,\\\\n Background->None]\\\"}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[358.626,196.05],[358.626,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[370.372,196.05],[370.372,194.047]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[94.593,196.05],[376,196.05]]}, \\n{\\\"type\\\": \\\"Inset\\\", \\\"metadata\\\": {\\\"transform\\\": [1, 0, 0, 1, 384, 190.05], \\\"localRect\\\": {\\\"left\\\": 0, \\\"top\\\": 0, \\\"right\\\": 41, \\\"bottom\\\": 12}, \\\"pos\\\": [142.496, 213.675], \\\"opos\\\": [0, 0.5]},\\n\\\"boxdata\\\": \\\"\\\\nStyleBox[\\\\\\\"\\\\\\\\<\\\\\\\\\\\\\\\"Diagonal\\\\\\\\\\\\\\\"\\\\\\\\>\\\\\\\",\\\\n FontFamily->\\\\\\\"Arial\\\\\\\",\\\\n FontSize->10,\\\\n FontWeight->\\\\\\\"Plain\\\\\\\",\\\\n FontSlant->\\\\\\\"Plain\\\\\\\",\\\\n FontTracking->\\\\\\\"Plain\\\\\\\",\\\\n PrivateFontOptions->{\\\\\\\"OperatorSubstitution\\\\\\\"->True},\\\\n FontColor->GrayLevel[0.4],\\\\n FontOpacity->1,\\\\n Background->None]\\\"}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,194.484],[98.0029,194.484]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,188.223],[98.0029,188.223]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,181.962],[98.0029,181.962]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,175.701],[99.3381,175.701]]}, \\n{\\\"type\\\": \\\"Inset\\\", \\\"metadata\\\": {\\\"transform\\\": [1, 0, 0, 1, 66, 170.201], \\\"localRect\\\": {\\\"left\\\": 0, \\\"top\\\": 0, \\\"right\\\": 27, \\\"bottom\\\": 11}, \\\"pos\\\": [137.728, 214], \\\"opos\\\": [1, 0.5]},\\n\\\"boxdata\\\": \\\"\\\\nStyleBox[\\\\\\\"214.0\\\\\\\",\\\\n FontFamily->\\\\\\\"Arial\\\\\\\",\\\\n FontSize->10,\\\\n FontWeight->\\\\\\\"Plain\\\\\\\",\\\\n FontSlant->\\\\\\\"Plain\\\\\\\",\\\\n FontTracking->\\\\\\\"Plain\\\\\\\",\\\\n PrivateFontOptions->{\\\\\\\"OperatorSubstitution\\\\\\\"->True},\\\\n FontColor->GrayLevel[0.4],\\\\n FontOpacity->1,\\\\n Background->None]\\\"}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,169.44],[98.0029,169.44]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,163.179],[98.0029,163.179]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,156.918],[98.0029,156.918]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,150.657],[98.0029,150.657]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,144.396],[99.3381,144.396]]}, \\n{\\\"type\\\": \\\"Inset\\\", \\\"metadata\\\": {\\\"transform\\\": [1, 0, 0, 1, 66, 138.896], \\\"localRect\\\": {\\\"left\\\": 0, \\\"top\\\": 0, \\\"right\\\": 27, \\\"bottom\\\": 11}, \\\"pos\\\": [137.728, 214.5], \\\"opos\\\": [1, 0.5]},\\n\\\"boxdata\\\": \\\"\\\\nStyleBox[\\\\\\\"214.5\\\\\\\",\\\\n FontFamily->\\\\\\\"Arial\\\\\\\",\\\\n FontSize->10,\\\\n FontWeight->\\\\\\\"Plain\\\\\\\",\\\\n FontSlant->\\\\\\\"Plain\\\\\\\",\\\\n FontTracking->\\\\\\\"Plain\\\\\\\",\\\\n PrivateFontOptions->{\\\\\\\"OperatorSubstitution\\\\\\\"->True},\\\\n FontColor->GrayLevel[0.4],\\\\n FontOpacity->1,\\\\n Background->None]\\\"}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,138.134],[98.0029,138.134]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,131.873],[98.0029,131.873]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,125.612],[98.0029,125.612]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,119.351],[98.0029,119.351]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,113.09],[99.3381,113.09]]}, \\n{\\\"type\\\": \\\"Inset\\\", \\\"metadata\\\": {\\\"transform\\\": [1, 0, 0, 1, 66, 107.59], \\\"localRect\\\": {\\\"left\\\": 0, \\\"top\\\": 0, \\\"right\\\": 27, \\\"bottom\\\": 11}, \\\"pos\\\": [137.728, 215], \\\"opos\\\": [1, 0.5]},\\n\\\"boxdata\\\": \\\"\\\\nStyleBox[\\\\\\\"215.0\\\\\\\",\\\\n FontFamily->\\\\\\\"Arial\\\\\\\",\\\\n FontSize->10,\\\\n FontWeight->\\\\\\\"Plain\\\\\\\",\\\\n FontSlant->\\\\\\\"Plain\\\\\\\",\\\\n FontTracking->\\\\\\\"Plain\\\\\\\",\\\\n PrivateFontOptions->{\\\\\\\"OperatorSubstitution\\\\\\\"->True},\\\\n FontColor->GrayLevel[0.4],\\\\n FontOpacity->1,\\\\n Background->None]\\\"}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,106.829],[98.0029,106.829]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,100.568],[98.0029,100.568]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,94.3068],[98.0029,94.3068]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,88.0457],[98.0029,88.0457]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,81.7847],[99.3381,81.7847]]}, \\n{\\\"type\\\": \\\"Inset\\\", \\\"metadata\\\": {\\\"transform\\\": [1, 0, 0, 1, 66, 76.2847], \\\"localRect\\\": {\\\"left\\\": 0, \\\"top\\\": 0, \\\"right\\\": 27, \\\"bottom\\\": 11}, \\\"pos\\\": [137.728, 215.5], \\\"opos\\\": [1, 0.5]},\\n\\\"boxdata\\\": \\\"\\\\nStyleBox[\\\\\\\"215.5\\\\\\\",\\\\n FontFamily->\\\\\\\"Arial\\\\\\\",\\\\n FontSize->10,\\\\n FontWeight->\\\\\\\"Plain\\\\\\\",\\\\n FontSlant->\\\\\\\"Plain\\\\\\\",\\\\n FontTracking->\\\\\\\"Plain\\\\\\\",\\\\n PrivateFontOptions->{\\\\\\\"OperatorSubstitution\\\\\\\"->True},\\\\n FontColor->GrayLevel[0.4],\\\\n FontOpacity->1,\\\\n Background->None]\\\"}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,75.5236],[98.0029,75.5236]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,69.2625],[98.0029,69.2625]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,63.0014],[98.0029,63.0014]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,56.7403],[98.0029,56.7403]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,50.4792],[99.3381,50.4792]]}, \\n{\\\"type\\\": \\\"Inset\\\", \\\"metadata\\\": {\\\"transform\\\": [1, 0, 0, 1, 66, 44.9792], \\\"localRect\\\": {\\\"left\\\": 0, \\\"top\\\": 0, \\\"right\\\": 27, \\\"bottom\\\": 11}, \\\"pos\\\": [137.728, 216], \\\"opos\\\": [1, 0.5]},\\n\\\"boxdata\\\": \\\"\\\\nStyleBox[\\\\\\\"216.0\\\\\\\",\\\\n FontFamily->\\\\\\\"Arial\\\\\\\",\\\\n FontSize->10,\\\\n FontWeight->\\\\\\\"Plain\\\\\\\",\\\\n FontSlant->\\\\\\\"Plain\\\\\\\",\\\\n FontTracking->\\\\\\\"Plain\\\\\\\",\\\\n PrivateFontOptions->{\\\\\\\"OperatorSubstitution\\\\\\\"->True},\\\\n FontColor->GrayLevel[0.4],\\\\n FontOpacity->1,\\\\n Background->None]\\\"}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,44.2181],[98.0029,44.2181]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,37.957],[98.0029,37.957]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,31.696],[98.0029,31.696]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,25.4349],[98.0029,25.4349]]}, \\n{\\\"type\\\": \\\"clip\\\", \\\"transform\\\": [1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000], \\\"path\\\": [[66,5], [66,211], [426,211], [426,5]]},\\n{\\\"type\\\": \\\"Line\\\", \\\"antialiased\\\" : false, \\\"edgeForm\\\": {\\\"color\\\": [102, 102, 102], \\\"opacity\\\": 1, \\\"thickness\\\": {\\\"absolute\\\": 0.2}, \\\"capForm\\\": \\\"Butt\\\", \\\"joinForm\\\": {\\\"type\\\": \\\"Miter\\\", \\\"d\\\": 3.25}, \\\"dashing\\\": []}, \\\"faceform\\\": null, \\\"points\\\": [[96,196.919],[96,23]]}, \\n{\\\"type\\\": \\\"Inset\\\", \\\"metadata\\\": {\\\"transform\\\": [1, 0, 0, 1, 79.5, 5], \\\"localRect\\\": {\\\"left\\\": 0, \\\"top\\\": 0, \\\"right\\\": 33, \\\"bottom\\\": 12}, \\\"pos\\\": [137.728, 216.439], \\\"opos\\\": [0.5, 0]},\\n\\\"boxdata\\\": \\\"\\\\nStyleBox[\\\\\\\"\\\\\\\\<\\\\\\\\\\\\\\\"Length\\\\\\\\\\\\\\\"\\\\\\\\>\\\\\\\",\\\\n FontFamily->\\\\\\\"Arial\\\\\\\",\\\\n FontSize->10,\\\\n FontWeight->\\\\\\\"Plain\\\\\\\",\\\\n FontSlant->\\\\\\\"Plain\\\\\\\",\\\\n FontTracking->\\\\\\\"Plain\\\\\\\",\\\\n PrivateFontOptions->{\\\\\\\"OperatorSubstitution\\\\\\\"->True},\\\\n FontColor->GrayLevel[0.4],\\\\n FontOpacity->1,\\\\n Background->None]\\\"}]}],\\n\\\"PlotRange\\\": {\\\"left\\\": 28.592965, \\\"top\\\": -87.000000, \\\"right\\\": 310.000000, \\\"bottom\\\": 86.919112}\\n}\\n\",\"requestedImageSize\":[\"Automatic\",\"Automatic\"]}"],FormBox[
+FormBox[TemplateBox[{"\"counterfeit\"","\"genuine\""},"PointLegend",DisplayFunction->Function[
+FormBox[StyleBox[StyleBox[PaneBox[TagBox[GridBox[{{TagBox[GridBox[{{GraphicsBox[{{},{Directive[
+EdgeForm[Directive[Opacity[0.3],GrayLevel[0]]],PointSize[0.33000000000000007],RGBColor[
+0.368417,0.506779,0.709798],AbsoluteThickness[1.6]],{Directive[EdgeForm[Directive[
+Opacity[0.3],GrayLevel[0]]],PointSize[0.33000000000000007],RGBColor[0.368417,0.506779,
+0.709798],AbsoluteThickness[1.6]],PointBox[NCache[{Scaled[{Times[1,Power[2,-1]],Times[
+1,Power[2,-1]]}]},{Scaled[{0.5,0.5}]}]]}}},AspectRatio->Full,ImageSize->{10,10},PlotRangePadding->None,
+ImagePadding->Automatic,BaselinePosition->(Scaled[0.1]->Baseline)],Slot[1]},{GraphicsBox[
+{{},{Directive[EdgeForm[Directive[Opacity[0.3],GrayLevel[0]]],PointSize[0.33000000000000007],
+RGBColor[0.880722,0.611041,0.142051],AbsoluteThickness[1.6]],{Directive[EdgeForm[
+Directive[Opacity[0.3],GrayLevel[0]]],PointSize[0.33000000000000007],RGBColor[0.880722,
+0.611041,0.142051],AbsoluteThickness[1.6]],PointBox[NCache[{Scaled[{Times[1,Power[
+2,-1]],Times[1,Power[2,-1]]}]},{Scaled[{0.5,0.5}]}]]}}},AspectRatio->Full,ImageSize->{10,10},
+PlotRangePadding->None,ImagePadding->Automatic,BaselinePosition->(Scaled[0.1]->Baseline)],Slot[
+2]}},GridBoxAlignment->{"Columns"->{Center,Left},"Rows"->{{Baseline}}},AutoDelete->False,
+GridBoxDividers->{"Columns"->{{False}},"Rows"->{{False}}},GridBoxItemSize->{"Columns"->{{All}},"Rows"->{{All}}},
+GridBoxSpacings->{"Columns"->{{0.5}},"Rows"->{{0.8}}}],"Grid"]}},GridBoxAlignment->{"Columns"->{{Left}},"Rows"->{{Top}}},
+AutoDelete->False,GridBoxItemSize->{"Columns"->{{Automatic}},"Rows"->{{Automatic}}},
+GridBoxSpacings->{"Columns"->{{1}},"Rows"->{{0}}}],"Grid"],Alignment->Left,AppearanceElements->None,
+ImageMargins->{{5,5},{5,5}},ImageSizeAction->"ResizeToFit"],LineIndent->0,StripOnInput->False],
+{FontFamily->"Arial"},Background->Automatic,StripOnInput->False],TraditionalForm]],
+RuleDelayed[InterpretationFunction,Function[RowBox[{"PointLegend","[",RowBox[{RowBox[
+{"{",RowBox[{RowBox[{"Directive","[",RowBox[{RowBox[{"PointSize","[","0.009166666666666668`","]"}],",",InterpretationBox[
+ButtonBox[TooltipBox[GraphicsBox[{{GrayLevel[0],RectangleBox[{0,0}]},{GrayLevel[0],RectangleBox[
+{1,-1}]},{RGBColor[0.368417,0.506779,0.709798],RectangleBox[{0,-1},{2,1}]}},AspectRatio->1,
+Frame->True,FrameStyle->RGBColor[0.24561133333333335,0.3378526666666667,0.4731986666666667],
+FrameTicks->None,PlotRangePadding->None,ImageSize->Dynamic[{Automatic,Times[1.35,
+CurrentValue["FontCapHeight"],Power[AbsoluteCurrentValue[Magnification],-1]]}]],"RGBColor[0.368417, 0.506779, 0.709798]"],
+Appearance->None,BaseStyle->{},BaselinePosition->Baseline,DefaultBaseStyle->{},RuleDelayed[
+ButtonFunction,With[{Set[Typeset`box$,EvaluationBox[]]},If[Not[AbsoluteCurrentValue[
+"Deployed"]],CompoundExpression[SelectionMove[Typeset`box$,All,Expression],Set[FrontEnd`Private`$ColorSelectorInitialAlpha,
+1],Set[FrontEnd`Private`$ColorSelectorInitialColor,RGBColor[0.368417,0.506779,0.709798]],
+Set[FrontEnd`Private`$ColorSelectorUseMakeBoxes,True],MathLink`CallFrontEnd[FrontEnd`AttachCell[
+Typeset`box$,FrontEndResource["RGBColorValueSelector"],{0,{Left,Bottom}},{Left,Top},
+"ClosingActions"->{"SelectionDeparture","ParentChanged","EvaluatorQuit"}]]]]]],BaseStyle->Inherited,
+Evaluator->Automatic,Method->"Preemptive"],RGBColor[0.368417,0.506779,0.709798],Editable->False,
+Selectable->False],",",RowBox[{"AbsoluteThickness","[","1.6`","]"}]}],"]"}],",",RowBox[
+{"Directive","[",RowBox[{RowBox[{"PointSize","[","0.009166666666666668`","]"}],",",InterpretationBox[
+ButtonBox[TooltipBox[GraphicsBox[{{GrayLevel[0],RectangleBox[{0,0}]},{GrayLevel[0],RectangleBox[
+{1,-1}]},{RGBColor[0.880722,0.611041,0.142051],RectangleBox[{0,-1},{2,1}]}},AspectRatio->1,
+Frame->True,FrameStyle->RGBColor[0.587148,0.40736066666666665,0.09470066666666668],
+FrameTicks->None,PlotRangePadding->None,ImageSize->Dynamic[{Automatic,Times[1.35,
+CurrentValue["FontCapHeight"],Power[AbsoluteCurrentValue[Magnification],-1]]}]],"RGBColor[0.880722, 0.611041, 0.142051]"],
+Appearance->None,BaseStyle->{},BaselinePosition->Baseline,DefaultBaseStyle->{},RuleDelayed[
+ButtonFunction,With[{Set[Typeset`box$,EvaluationBox[]]},If[Not[AbsoluteCurrentValue[
+"Deployed"]],CompoundExpression[SelectionMove[Typeset`box$,All,Expression],Set[FrontEnd`Private`$ColorSelectorInitialAlpha,
+1],Set[FrontEnd`Private`$ColorSelectorInitialColor,RGBColor[0.880722,0.611041,0.142051]],
+Set[FrontEnd`Private`$ColorSelectorUseMakeBoxes,True],MathLink`CallFrontEnd[FrontEnd`AttachCell[
+Typeset`box$,FrontEndResource["RGBColorValueSelector"],{0,{Left,Bottom}},{Left,Top},
+"ClosingActions"->{"SelectionDeparture","ParentChanged","EvaluatorQuit"}]]]]]],BaseStyle->Inherited,
+Evaluator->Automatic,Method->"Preemptive"],RGBColor[0.880722,0.611041,0.142051],Editable->False,
+Selectable->False],",",RowBox[{"AbsoluteThickness","[","1.6`","]"}]}],"]"}]}],"}"}],",",RowBox[
+{"{",RowBox[{Slot[1],",",Slot[2]}],"}"}],",",RowBox[{"LegendMarkers","\[Rule]",RowBox[
+{"{",RowBox[{RowBox[{"{",RowBox[{"False",",","Automatic"}],"}"}],",",RowBox[{"{",RowBox[
+{"False",",","Automatic"}],"}"}]}],"}"}]}],",",RowBox[{"Joined","\[Rule]",RowBox[
+{"{",RowBox[{"False",",","False"}],"}"}]}],",",RowBox[{"LabelStyle","\[Rule]",RowBox[
+{"{","}"}]}],",",RowBox[{"LegendLayout","\[Rule]","\"Column\""}]}],"]"}]]],Editable->True],
+TraditionalForm],TraditionalForm]},"Legended",DisplayFunction->Function[GridBox[{{TagBox[
+ItemBox[PaneBox[TagBox[Slot[1],"SkipImageSizeLevel"],Alignment->{Center,Baseline},
+BaselinePosition->Baseline],DefaultBaseStyle->"Labeled"],"SkipImageSizeLevel"],ItemBox[
+Slot[2],DefaultBaseStyle->"LabeledLabel"]}},GridBoxAlignment->{"Columns"->{{Center}},"Rows"->{{Center}}},
+AutoDelete->False,GridBoxItemSize->Automatic,BaselinePosition->{1,1}]],Editable->True,
+InterpretationFunction->Function[RowBox[{"Legended","[",RowBox[{Slot[1],",",RowBox[
+{"Placed","[",RowBox[{Slot[2],",","After"}],"]"}]}],"]"}]]]],"Output",CellChangeTimes->{{3.684520805218362*^9,3.684520819037362*^9},3.684520852769362*^9,3.696182322279077*^9},
+ExpressionUUID->"d1a0d86a-2512-4fef-bc1d-0345c2be78d2"]},Open]]},Open]]},Open]]},
+WindowSize->{775,687},WindowMargins->{{136,Automatic},{Automatic,0}},WindowTitle->"Examples for Swiss Bank Notes Sample Data",
+TaggingRules->{"NotebookTemplateVersion"->1.},CellContext->Notebook,ShowCellTags->True,
+Nothing,Nothing,Nothing,Nothing,StyleDefinitions->FrontEnd`FileName[{"Wolfram"},"CreateDataResourceStyleSheet.nb",
+CharacterEncoding->"UTF-8"],DockedCells->{},Background->GrayLevel[0.9999],FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]
